@@ -4,7 +4,7 @@ int main()
   long int Input;
   printf("Input:");
   scanf("%ld",&Input);
-  if(Input==0 && Input<100000)
+  if(Input>=0 && Input<100000)
   {
     if(Input%2==0 || Input==0)
     {
