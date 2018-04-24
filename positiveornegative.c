@@ -8,13 +8,13 @@ int main()
     {
       printf("Output:\nPositive");
     }
-    else if(Input<0)
+    else if(Input==0)
     {
-      printf("Output:\nNegative");
+      printf("Output:\nZero");
     }
     else
     {
-      printf("Output:\nZero");
+      printf("Invalid input");
     }
 return 0;
 }
